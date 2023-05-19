@@ -5,13 +5,13 @@ const weatherDataElement = document.getElementById('weatherData');
 // alert("Welcome on the Vert Issy website page !");
 
 
-// ADD BUTTON TO JOIN ASSOCIATION
-btn_join.addEventListener('click', function() {
-    let name = prompt('What is your name?');
-    if (name != 0){alert('Hi ' + name + ', thank you for your motivation!');}
-    else alert('Something happened. Can you register again, please.');
+// // ADD BUTTON TO JOIN ASSOCIATION
+// btn_join.addEventListener('click', function() {
+//     let name = prompt('What is your name?');
+//     if (name != 0){alert('Hi ' + name + ', thank you for your motivation!');}
+//     else alert('Something happened. Can you register again, please.');
     
-});
+// });
 
 
 
