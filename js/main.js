@@ -11,7 +11,7 @@ btn_join.addEventListener('click', function() {
     if (name != 0){alert('Hi ' + name + ', thank you for your motivation!');}
     else alert('Something happened. Can you register again, please.');
     
-  });
+});
 
 
 
