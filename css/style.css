@@ -20,10 +20,16 @@ p{
 	padding: 3vh;
 	border-radius: 1vw;
 }
+img{
+	margin: 1.5%;
+}
+/* Parameters common for several pages */
+#btn_join{
+margin: 2%;
+}
 
 
 /* NAV */
-
 nav ul{
 	display: flex;
 	flex-wrap: wrap;
@@ -33,6 +39,7 @@ display: block;
 padding: 1vw;
 text-align: center;
 background-color: rgb(255, 255, 255);
+font-size: 200%;
 }
 nav li:hover {
 background-color: #777777;
@@ -190,6 +197,27 @@ background: none;
 }
 
 
+
+/* Responsive styles */
+@media (max-width: 768px) {
+	/* Accueil-Index */
+	nav ul {
+	  flex-direction: column;
+	}
+  
+	nav li {
+	  margin-bottom: 10px;
+	}
+
+	/* Portfolio */
+	#gallery {
+		flex-direction: column;
+	}
+	.project {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+  }
 
 
 
