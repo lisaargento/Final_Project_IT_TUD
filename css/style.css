@@ -64,7 +64,7 @@ nav a:hover {
     border-radius: 1.5vw;
 	left: 0%;
 	right: 0%;
-	padding-top: 0.1vh;
+	padding-top: 0.3vh;
 	padding-left: 5vw;
 	padding-right: 5vw;
 	min-height: 95vh;
@@ -72,12 +72,6 @@ nav a:hover {
 	background-repeat: no-repeat;
   	background-position: center;
 	font-weight: bolder;
-}
-#hero-section img{
-    margin: auto;
-    max-width: 30vw;
-    border: #000000 0.5vw;
-	background-size: cover;
 }
 
 
