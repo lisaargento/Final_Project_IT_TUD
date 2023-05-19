@@ -2,7 +2,7 @@
 var btn_join = document.getElementById('btn_join');
 const weatherDataElement = document.getElementById('weatherData');
 
-alert("Welcome on the Vert Issy website page !");
+// alert("Welcome on the Vert Issy website page !");
 
 
 // ADD BUTTON TO JOIN ASSOCIATION
